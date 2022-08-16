@@ -292,10 +292,54 @@ span{
     text-align: center;
 }
 
+@media only screen and (min-width:1021px) and (max-width: 1175px){
+    .customer{
+   
+        margin-top: 150px;
+       
+       
+     }
+     #bg{
+        background: #08B7F7;
+        height: 240vh;
+} 
+#hosting-container{
+    background: none;
+}
+.hosting-services-left h1{
+    font-size: 2.5rem;
+    color: black;
+}
+.hosting-services-left p{
+    font-size: 1rem;
+    color: black;
+}
+.hosting-services{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+    grid-gap: 1rem;
+    width: 80%;
+    margin: 30px auto;
+   
+}
+.hosting-services-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.hosting-btn{
+  
+    background: #0B63EA ;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+}
 
 
-
-@media only screen and (min-width:810px) and (max-width: 1162px){
+@media only screen and (min-width:810px) and (max-width: 1020px){
     #bg{
         background: #08B7F7;
         height: 115vh;
@@ -306,6 +350,39 @@ span{
    
    
  }
+ #hosting-container{
+    background: none;
+}
+.hosting-services-left h1{
+    font-size: 2.5rem;
+    color: black;
+}
+.hosting-services-left p{
+    font-size: 1rem;
+    color: black;
+}
+.hosting-services{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+    grid-gap: 1rem;
+    width: 80%;
+    margin: 30px auto;
+   
+}
+.hosting-services-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+.hosting-btn{
+  
+    background: #0B63EA ;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
 
 
 }
@@ -323,6 +400,39 @@ span{
        
        
      }
+     #hosting-container{
+        background: none;
+    }
+    .hosting-services-left h1{
+        font-size: 2.5rem;
+        color: black;
+    }
+    .hosting-services-left p{
+        font-size: 1rem;
+        color: black;
+    }
+    .hosting-services{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+        grid-gap: 1rem;
+        width: 80%;
+        margin: 30px auto;
+       
+    }
+    .hosting-services-right{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    
+    }
+    .hosting-btn{
+      
+        background: #0B63EA ;
+        color: white;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
 }
 @media only screen and (max-width:612px){
     #bg{
@@ -383,14 +493,23 @@ span{
   
 }
 .customer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
    
-   margin-top: 1400px;
-   width: 68vh;
-   padding-bottom: 50px;
-   
-   
-  
-  
+    width: 130%;
+    margin-top: 1400px;
+}
+.customer-left{
+    padding-left: 35px;
+}
+.customer-right{
+    width: 130%;
+    padding-left: 35px;
+}
+.customer-right p{
+    font-size: 1.5rem;
+    text-align: start;
 }
 .cust-cards-design{
     display: grid;
