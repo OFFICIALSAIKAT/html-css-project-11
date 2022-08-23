@@ -1,6 +1,10 @@
+
+
 body{
     margin: 30px;
 }
+
+/* navbar-section */
 .navbar{
     display: flex;
     flex-wrap: wrap;
@@ -25,6 +29,8 @@ body{
     border: 2px solid #3BB0FF;
     border-radius: 20px;
 }
+/* hero-section-1 */
+
 .hero-1{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
@@ -52,6 +58,7 @@ body{
     
     
 }
+/* hero-section-2 */
 
 
 .hero-2{
@@ -80,6 +87,8 @@ body{
     border-radius: 20px;
     
 }
+/* hero-section-3 */
+
 .hero-3{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
@@ -104,6 +113,8 @@ body{
     height: 450px;
     border-radius: 20px;
 }
+/* thor-hosting-section */
+
 .thor-hosting{
    
     display: grid;
@@ -120,10 +131,12 @@ body{
     font-size: 1.5rem;
 }
 
+/* services-offered */
+
 .services-1{
    
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
         grid-gap: 1rem;
         width: 80%;
         margin: auto;
@@ -140,6 +153,9 @@ body{
     padding: 5px 0 0 0;
     
 }
+
+/* pricing-chart-section */
+
 .pricing-chart{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
@@ -205,6 +221,9 @@ span{
     border-radius: 10px;
     border: none;
 }
+
+/* customer-reviews-section */
+
 .customer{
     display: flex;
     flex-direction: column;
@@ -222,7 +241,7 @@ span{
 }
 .cust-cards-design{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(480px,1fr));
     grid-gap: 1rem;
     width: 80%;
     margin: auto;
@@ -235,6 +254,8 @@ span{
 .cust-card h6{
     font-size: 1.2rem;
 }
+/* hosting-section */
+
 #hosting-container{
     background: #0B63EA ;
     
@@ -270,6 +291,9 @@ span{
     border: 1px solid white;
     border-radius: 10px;
 }
+
+/* footer-section */
+
 .footer-navbar{
     
         display: grid;
@@ -291,6 +315,8 @@ span{
 .social{
     text-align: center;
 }
+
+/* responsive-section */
 
 @media only screen and (min-width:1021px) and (max-width: 1175px){
     .customer{
@@ -567,3 +593,4 @@ span{
     text-align: start;
 }
 }
+
